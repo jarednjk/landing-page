@@ -66,3 +66,31 @@ ul {
     margin-top: 8px;
     border-radius: 4px;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+    padding: 0 300px;
+}
+
+.boxes img {
+    width: 150px;
+    height: 150px;
+}
+
+.boxes p {
+    color: grey;
+}
+
