@@ -7,6 +7,10 @@ body {
     font-size: 18px;
 }
 
+.right-side img {
+    width: 400px;
+}
+
 .hero {
     background-color: #1F2937;
 }
@@ -41,13 +45,15 @@ ul {
 
 .below-header {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .left-side {
     width: 400px;
     display: flex;
     flex-direction: column;
-    padding: 80px 200px;
+    padding: 100px 0px;
 }
 
 .buttons button {
